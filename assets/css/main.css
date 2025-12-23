@@ -202,8 +202,12 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+	ul, ol {
+		margin-bottom: 0em;
+	}
+
+	p, dl, table {
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -1809,6 +1813,11 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
+		}
+		
+	ul ul {
+			list-style-type: circle;     /* hollow bullet */
+			padding-left: 1em;           /* smaller indent */
 		}
 
 /* Icons */
